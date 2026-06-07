@@ -1,4 +1,8 @@
+Here is the updated `README.md`, perfectly integrating the script-based execution method into the "Quick Start" section while maintaining the professional structure and your ACM Multimedia citation format.
 
+You can directly copy the code block below:
+
+```markdown
 # Test-time Visual Shift (TVS)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -28,10 +32,11 @@ conda activate tvs
 # 3. Install dependencies
 pip install -r requirements.txt
 
+```
 
 ## 📂 Data Preparation
 
-Please organize your test datasets (e.g., ImageNet-C, commonly used for evaluating visual shifts) under the `data/` directory following this structure:
+Please organize your test datasets (e.g., ImageNet-A, commonly used for evaluating visual shifts) under the `data/` directory following this structure:
 
 ```text
 Test-time-Visual-Shift/
@@ -47,14 +52,14 @@ Test-time-Visual-Shift/
 
 ### 1. Run the Test-Time Adaptation Framework
 
-You can quickly run the TVS method on the target dataset for model adaptation and evaluation using the following command:
+You can easily run the TVS method using our provided bash scripts. For example, to launch the adaptation process with a ViT-16 backbone, make sure you are in the project root directory and execute:
 
 ```bash
-python main.py --dataset target_dataset --method tvs --batch_size 64
+bash scripts/tvs/tvs_vit16.sh imagenet
 
 ```
 
-*(Note: You can specify different Vision-Language backbones via the `--model` parameter and adjust the adaptation learning rate using `--lr`.)*
+*(Note: You can directly edit the `tvs_vit16.sh` script to modify hyperparameters such as the target dataset, batch size, or adaptation learning rate.)*
 
 ### 2. Efficiency Analysis
 
@@ -72,7 +77,7 @@ If you use the code from this repository in your academic research or find this 
 ```bibtex
 @inproceedings{ye2026tvs,
   title={Test-time Visual Shift: Efficient Adaptation for Vision-Language Models},
-  author={Ye, Jianhang and others},
+  author={Yang, Ting and others},
   booktitle={Proceedings of the 34th ACM International Conference on Multimedia},
   year={2026}
 }
@@ -83,3 +88,6 @@ If you use the code from this repository in your academic research or find this 
 
 If you have any questions regarding code execution or academic discussions, feel free to open an Issue in the repository or contact us directly via email: [Your Email Address].
 
+```
+
+```
