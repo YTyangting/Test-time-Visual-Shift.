@@ -71,7 +71,7 @@ python evaluate_efficiency.py --config configs/tvs_config.yaml
 If you use the code from this repository in your academic research or find this work inspiring, please consider citing our paper:
 
 ```bibtex
-@inproceedings{ye2026tvs,
+@inproceedings{ya2026tvs,
   title={Test-time Visual Shift: Efficient Adaptation for Vision-Language Models},
   author={Yang, Ting and others},
   booktitle={Proceedings of the 34th ACM International Conference on Multimedia},
