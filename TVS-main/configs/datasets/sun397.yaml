@@ -1,0 +1,10 @@
+DATASET:
+  NAME: "SUN397"
+  TPT: 'sun397'
+  ENABLE: True
+  SHOTCAP: 3
+  ALPHA: 6.0
+  BETA: 5.0 
+  LR: 5e-2
+  RATE: 0.0
+  SELECT: 1.0

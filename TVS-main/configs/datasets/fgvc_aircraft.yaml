@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "FGVCAircraft"
+  #TPT: 'PUG_Worlds'
+  TPT: 'aircraft'
+  ENABLE: True
+  SHOTCAP: 3
+  ALPHA: 6.0
+  BETA: 5.0 
+  LR: 6e-2
+  RATE: 0.5
+  SELECT: 4e-1

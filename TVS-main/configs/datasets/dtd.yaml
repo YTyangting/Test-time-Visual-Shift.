@@ -1,0 +1,11 @@
+DATASET:
+  NAME: "DescribableTextures"
+  #TPT: 'PUG_SLight'
+  TPT: 'dtd'
+  ENABLE: True
+  SHOTCAP: 3
+  ALPHA: 6.0
+  BETA: 5.0 
+  LR: 4e-2
+  RATE: 33e-3
+  SELECT: 1e-1
