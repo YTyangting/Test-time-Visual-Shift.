@@ -1,8 +1,4 @@
-Here is the updated `README.md`, perfectly integrating the script-based execution method into the "Quick Start" section while maintaining the professional structure and your ACM Multimedia citation format.
 
-You can directly copy the code block below:
-
-```markdown
 # Test-time Visual Shift (TVS)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
